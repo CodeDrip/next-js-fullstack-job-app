@@ -1,8 +1,11 @@
+
 import { Button } from "@/components/ui/button";
+import ImgTabs from "@/components/ui/img-tbs";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
+
   return (
     <div className="flex min-h-screen flex-col">
       <main className="flex-1">
@@ -23,6 +26,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+      {/* Image Tabs */}
+      <ImgTabs />
       </main>
     </div>
   );
